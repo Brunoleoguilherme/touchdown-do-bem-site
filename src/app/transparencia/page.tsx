@@ -67,7 +67,7 @@ const keyNumbers = [
 
 export default function TransparenciaPage() {
   return (
-    <main className="pt-20 min-h-screen bg-white">
+    <main className="min-h-screen bg-white">
       {/* Hero */}
       <section className="section-padding bg-navy text-white">
         <div className="container-tight">

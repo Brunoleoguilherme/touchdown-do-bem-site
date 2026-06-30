@@ -48,10 +48,10 @@ export default function Navbar() {
   return (
     <header
       className={clsx(
-        "sticky top-0 left-0 right-0 z-50 transition-all duration-300",
+        "sticky top-0 left-0 right-0 z-50 transition-all duration-300 bg-white",
         scrolled
-          ? "bg-white/95 backdrop-blur-md shadow-[0_1px_20px_rgba(0,0,0,0.08)]"
-          : "bg-transparent"
+          ? "shadow-[0_1px_20px_rgba(0,0,0,0.07)] backdrop-blur-md"
+          : ""
       )}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
@@ -61,9 +61,9 @@ export default function Navbar() {
             <Image
               src="/logo.png"
               alt="Touchdown do Bem"
-              width={112}
-              height={112}
-              className="object-contain h-28 w-auto"
+              width={80}
+              height={80}
+              className="object-contain h-16 w-auto drop-shadow-sm"
               priority
             />
           </Link>

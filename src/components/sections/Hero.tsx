@@ -37,7 +37,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-white">
+    <section className="relative min-h-[calc(100vh-80px)] flex items-center overflow-hidden bg-white">
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-br from-green-50 via-white to-navy-50 opacity-60" />
@@ -50,7 +50,7 @@ export default function Hero() {
         />
         {/* Right side — action photo, desktop only */}
         <div className="absolute right-0 top-0 bottom-0 w-1/2 hidden lg:block">
-          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/40 to-transparent z-10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/60 to-white/10 z-10" />
           <Image
             src="/images/foto-acao.jpg"
             alt="Criança do Touchdown do Bem em ação com a bola"

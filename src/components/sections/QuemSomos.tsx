@@ -101,7 +101,7 @@ export default function QuemSomos() {
             </div>
 
             {/* Team photo */}
-            <div className="relative rounded-3xl overflow-hidden h-56 mb-4">
+            <div className="relative rounded-3xl overflow-hidden h-48 sm:h-56 mb-4">
               <Image
                 src="/images/foto-time-verde.jpg"
                 alt="Time Touchdown do Bem com treinadores"

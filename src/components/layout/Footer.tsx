@@ -31,9 +31,9 @@ export default function Footer() {
               <Image
                 src="/logo.png"
                 alt="Touchdown do Bem"
-                width={120}
-                height={120}
-                className="object-contain h-32 w-auto"
+                width={96}
+                height={96}
+                className="object-contain h-20 w-auto"
               />
             </div>
             <p className="text-navy-100/70 text-sm leading-relaxed mb-6">

@@ -114,10 +114,32 @@ export default function Patrocinadores() {
           ))}
         </div>
 
+        {/* Lei de Incentivo ao Esporte banner */}
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.45 }}
+          className="gradient-navy rounded-3xl p-6 md:p-8 mb-6 flex flex-col sm:flex-row items-start sm:items-center gap-5"
+        >
+          <div className="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center flex-shrink-0">
+            <span className="text-2xl">🇧🇷</span>
+          </div>
+          <div className="flex-1">
+            <p className="text-white font-bold text-sm mb-0.5">Projeto aprovado pela Lei Federal de Incentivo ao Esporte</p>
+            <p className="text-white/60 text-xs leading-relaxed">
+              Lei nº 11.438/2006 — Ministério do Esporte. Empresas podem investir no Touchdown do Bem com <strong className="text-white/80">dedução integral no Imposto de Renda</strong>, sem custo adicional para o patrocinador.
+            </p>
+          </div>
+          <div className="flex-shrink-0 bg-white/10 border border-white/20 rounded-xl px-4 py-2 text-center">
+            <div className="text-white/40 text-xs uppercase tracking-widest font-bold">Ministério</div>
+            <div className="text-white font-black text-sm">do Esporte</div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.5, delay: 0.55 }}
           className="bg-green-50 border border-green-100 rounded-3xl p-6 md:p-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6"
         >
           <div>

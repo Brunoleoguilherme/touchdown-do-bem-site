@@ -98,7 +98,6 @@ export default function Hero() {
                   <path d="M0 5 Q150 0 300 5" stroke="#FFD100" strokeWidth="3" fill="none" strokeLinecap="round" />
                 </svg>
               </span>
-              .
             </motion.h1>
 
             {/* Sub */}

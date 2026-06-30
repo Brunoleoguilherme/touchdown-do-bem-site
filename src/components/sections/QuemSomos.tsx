@@ -7,8 +7,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 const team = [
-  { name: "Bruno Guilherme", role: "Fundador", emoji: "🏈" },
   { name: "Sanders Maciel", role: "Fundador", emoji: "🎯" },
+  { name: "Bruno Guilherme", role: "Fundador", emoji: "🏈" },
   { name: "Dayene Nogueira", role: "Fundadora", emoji: "⭐" },
   { name: "Famílias & Voluntários", role: "O coração do projeto", emoji: "❤️" },
 ];
@@ -49,7 +49,7 @@ export default function QuemSomos() {
               className="space-y-5 body-lg"
             >
               <p>
-                Em 2017, Bruno Guilherme, Sanders Maciel e Dayene Nogueira tinham uma ideia simples: levar o Flag Football para crianças que nunca tinham ouvido falar no esporte. Não havia patrocinadores. Não havia estrutura. Havia vontade, um campo e uma bola.
+                Em 2017, Sanders Maciel, Bruno Guilherme e Dayene Nogueira tinham uma ideia simples: levar o Flag Football para crianças que nunca tinham ouvido falar no esporte. Não havia patrocinadores. Não havia estrutura. Havia vontade, um campo e uma bola.
               </p>
               <p>
                 O que começou em um polo virou movimento. As crianças voltavam. As famílias chegavam. Os pais perguntavam se podiam ajudar. Os jovens viravam treinadores. O projeto foi crescendo porque o esporte, quando bem feito, transforma de dentro para fora.
@@ -88,12 +88,12 @@ export default function QuemSomos() {
                 </p>
                 <div className="flex items-center gap-3 flex-wrap">
                   <div className="flex -space-x-2">
-                    <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center font-bold text-white text-xs border-2 border-navy">BG</div>
                     <div className="w-10 h-10 rounded-full bg-yellow-500 flex items-center justify-center font-bold text-white text-xs border-2 border-navy">SM</div>
+                    <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center font-bold text-white text-xs border-2 border-navy">BG</div>
                     <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center font-bold text-white text-xs border-2 border-navy">DN</div>
                   </div>
                   <div>
-                    <p className="font-semibold text-sm">Bruno, Sanders & Dayene</p>
+                    <p className="font-semibold text-sm">Sanders, Bruno & Dayene</p>
                     <p className="text-white/50 text-xs">Fundadores, Touchdown do Bem</p>
                   </div>
                 </div>
